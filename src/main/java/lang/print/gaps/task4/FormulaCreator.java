@@ -6,7 +6,7 @@ public class FormulaCreator {
         double b = 2;
         double pow = Math.pow(a,2);
         double res = ((9*pow-5*b+2+a-7)*((a+b-4*a*b)/2));
-        System.out.println(res);
+        System.out.println((int)res);
 
     }
 }
